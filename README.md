@@ -1,8 +1,31 @@
-# React + Vite
+# Paste App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple paste application built with React, Redux, and Tailwind CSS. This app allows users to create, update, view, and delete pastes.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Create new pastes with a title and content.
+- Update existing pastes.
+- View the content of a paste.
+- Delete pastes.
+- Search pastes by title.
+- Copy paste content to clipboard.
+- Share pastes.
+
+## Project Structure
+
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+
+### Installation
+
+1. Clone the repository:
+
+```sh
+git clone https://github.com/your-username/paste-app.git
+cd paste-app
